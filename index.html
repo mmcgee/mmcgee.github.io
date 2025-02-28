@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_08d7bf28fe71ca2ed8b092871d5ba685 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_08d7bf28fe71ca2ed8b092871d5ba685" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_08d7bf28fe71ca2ed8b092871d5ba685 = L.map(
+                "map_08d7bf28fe71ca2ed8b092871d5ba685",
+                {
+                    center: [42.3974042, -71.1366337],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fcdf8af7684213db5c6e48da25d478c7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fcdf8af7684213db5c6e48da25d478c7.addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+            var marker_d532f807da6ebb1beb4e3d06f157bb4b = L.marker(
+                [42.371, -71.146],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_5d91723ca2c0dc896a45581ede4c9a23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1afcca8669d1d9081e26d2a8b7a1cdb8 = $(`<div id="html_1afcca8669d1d9081e26d2a8b7a1cdb8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Mount Auburn Cemetery<br><hr><b>Orange-crowned Warbler</b> (1) on 2025-02-28 10:00 [<a href='https://ebird.org/checklist/S215868989' target='_blank'>Checklist</a>]<br><hr><b>Orange-crowned Warbler</b> (1) on 2025-02-27 07:02 [<a href='https://ebird.org/checklist/S215743958' target='_blank'>Checklist</a>]<br><hr><b>Pine Warbler</b> (1) on 2025-02-27 07:02 [<a href='https://ebird.org/checklist/S215743958' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_5d91723ca2c0dc896a45581ede4c9a23.setContent(html_1afcca8669d1d9081e26d2a8b7a1cdb8);
+            
+        
+
+        marker_d532f807da6ebb1beb4e3d06f157bb4b.bindPopup(popup_5d91723ca2c0dc896a45581ede4c9a23)
+        ;
+
+        
+    
+    
+            marker_d532f807da6ebb1beb4e3d06f157bb4b.bindTooltip(
+                `<div>
+                     Multiple sightings
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_780a079147b62674f8ca6e48aa4048e6 = L.marker(
+                [42.3955092, -71.0739899],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_f0c81379555c38dbc43c73bf9c09079d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddbac7d9dd8ed767e3c602f2c0064455 = $(`<div id="html_ddbac7d9dd8ed767e3c602f2c0064455" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Amelia Earhart Dam<br><hr><b>Surf Scoter</b> (4) on 2025-02-28 09:53 [<a href='https://ebird.org/checklist/S215855983' target='_blank'>Checklist</a>]<br><hr><b>Surf Scoter</b> (2) on 2025-02-28 08:09 [<a href='https://ebird.org/checklist/S215862519' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_f0c81379555c38dbc43c73bf9c09079d.setContent(html_ddbac7d9dd8ed767e3c602f2c0064455);
+            
+        
+
+        marker_780a079147b62674f8ca6e48aa4048e6.bindPopup(popup_f0c81379555c38dbc43c73bf9c09079d)
+        ;
+
+        
+    
+    
+            marker_780a079147b62674f8ca6e48aa4048e6.bindTooltip(
+                `<div>
+                     Multiple sightings
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_69ab969ac804a58c30f7b923230b5402 = L.marker(
+                [42.4327062, -71.1490059],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_904f251b72fb9fc9a3c311e876490c05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf8e3f07c9a0eae7817eb2f2de21b03f = $(`<div id="html_bf8e3f07c9a0eae7817eb2f2de21b03f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Mystic Lakes, Medford<br><hr><b>Great Cormorant</b> (2) on 2025-02-28 08:50 [<a href='https://ebird.org/checklist/S215854850' target='_blank'>Checklist</a>]<br><hr><b>Great Cormorant</b> (2) on 2025-02-28 08:01 [<a href='https://ebird.org/checklist/S215821033' target='_blank'>Checklist</a>]<br><hr><b>Great Cormorant</b> (2) on 2025-02-27 12:55 [<a href='https://ebird.org/checklist/S215733375' target='_blank'>Checklist</a>]<br><hr><b>Gadwall</b> (1) on 2025-02-26 15:02 [<a href='https://ebird.org/checklist/S215576989' target='_blank'>Checklist</a>]<br><hr><b>Gadwall</b> (1) on 2025-02-26 14:44 [<a href='https://ebird.org/checklist/S215576051' target='_blank'>Checklist</a>]<br><hr><b>Gadwall</b> (1) on 2025-02-26 14:40 [<a href='https://ebird.org/checklist/S215579682' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_904f251b72fb9fc9a3c311e876490c05.setContent(html_bf8e3f07c9a0eae7817eb2f2de21b03f);
+            
+        
+
+        marker_69ab969ac804a58c30f7b923230b5402.bindPopup(popup_904f251b72fb9fc9a3c311e876490c05)
+        ;
+
+        
+    
+    
+            marker_69ab969ac804a58c30f7b923230b5402.bindTooltip(
+                `<div>
+                     Multiple sightings
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d806cf5f64c2b5eb1a18b9e27d46e925 = L.marker(
+                [42.4680852, -71.1582396],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_6712396cb74d376105843873f8657592 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_644e2dc644ddec9889e35a0645dc914c = $(`<div id="html_644e2dc644ddec9889e35a0645dc914c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Horn Pond Recreation Area<br><hr><b>Brown Thrasher</b> (1) on 2025-02-27 16:33 [<a href='https://ebird.org/checklist/S215746060' target='_blank'>Checklist</a>]<br><hr><b>Greater Scaup</b> (1) on 2025-02-27 16:33 [<a href='https://ebird.org/checklist/S215746060' target='_blank'>Checklist</a>]<br><hr><b>Brown Thrasher</b> (1) on 2025-02-26 15:59 [<a href='https://ebird.org/checklist/S215668037' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_6712396cb74d376105843873f8657592.setContent(html_644e2dc644ddec9889e35a0645dc914c);
+            
+        
+
+        marker_d806cf5f64c2b5eb1a18b9e27d46e925.bindPopup(popup_6712396cb74d376105843873f8657592)
+        ;
+
+        
+    
+    
+            marker_d806cf5f64c2b5eb1a18b9e27d46e925.bindTooltip(
+                `<div>
+                     Multiple sightings
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9e5fa5f62ed9f0889ddfd8036b6ed6eb = L.marker(
+                [42.339884, -71.100086],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_b221fd6208457036b62bdbf0e325bc22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43ed38431c68cd9db658c24b0549ac67 = $(`<div id="html_43ed38431c68cd9db658c24b0549ac67" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Back Bay Fens, Boston (between Brookline and Forsyth)<br><hr><b>Lesser Scaup</b> (1) on 2025-02-27 16:08 [<a href='https://ebird.org/checklist/S215739077' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_b221fd6208457036b62bdbf0e325bc22.setContent(html_43ed38431c68cd9db658c24b0549ac67);
+            
+        
+
+        marker_9e5fa5f62ed9f0889ddfd8036b6ed6eb.bindPopup(popup_b221fd6208457036b62bdbf0e325bc22)
+        ;
+
+        
+    
+    
+            marker_9e5fa5f62ed9f0889ddfd8036b6ed6eb.bindTooltip(
+                `<div>
+                     <b>Lesser Scaup</b> 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2174a00ed9a0b94e61ba30fbba34f843 = L.marker(
+                [42.382221, -71.076776],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_94e4d28d9a91320c701d0a10aa44c591 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_332757dd0b698dbd530a711e150211eb = $(`<div id="html_332757dd0b698dbd530a711e150211eb" style="width: 100.0%; height: 100.0%;"><b>Location:</b> I-93 S, Boston US-MA 42.38222, -71.07678<br><hr><b>Sharp-shinned Hawk</b> (1) on 2025-02-27 15:45 [<a href='https://ebird.org/checklist/S215737136' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_94e4d28d9a91320c701d0a10aa44c591.setContent(html_332757dd0b698dbd530a711e150211eb);
+            
+        
+
+        marker_2174a00ed9a0b94e61ba30fbba34f843.bindPopup(popup_94e4d28d9a91320c701d0a10aa44c591)
+        ;
+
+        
+    
+    
+            marker_2174a00ed9a0b94e61ba30fbba34f843.bindTooltip(
+                `<div>
+                     <b>Sharp-shinned Hawk</b> 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ecfaf458046ab7cf6cec96bbe6c3fdc4 = L.marker(
+                [42.4306473, -71.1479974],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_cb51d9b9bccef166e516d9183a4572b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48f2909382db3cee13e7b93ee9327fd1 = $(`<div id="html_48f2909382db3cee13e7b93ee9327fd1" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Mystic Lakes Dam<br><hr><b>Great Cormorant</b> (2) on 2025-02-27 15:30 [<a href='https://ebird.org/checklist/S215750291' target='_blank'>Checklist</a>]<br><hr><b>Great Cormorant</b> (2) on 2025-02-27 08:36 [<a href='https://ebird.org/checklist/S215819122' target='_blank'>Checklist</a>]<br><hr><b>Great Cormorant</b> (2) on 2025-02-27 07:55 [<a href='https://ebird.org/checklist/S215668859' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_cb51d9b9bccef166e516d9183a4572b6.setContent(html_48f2909382db3cee13e7b93ee9327fd1);
+            
+        
+
+        marker_ecfaf458046ab7cf6cec96bbe6c3fdc4.bindPopup(popup_cb51d9b9bccef166e516d9183a4572b6)
+        ;
+
+        
+    
+    
+            marker_ecfaf458046ab7cf6cec96bbe6c3fdc4.bindTooltip(
+                `<div>
+                     Multiple sightings
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e0417d4af0946eb56a075e4d2e6d2e9e = L.marker(
+                [42.4230555, -71.1435609],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_04bdaabd32afeccac0e64a7cf0980caa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fde36a60c456c735969a7930bf6f01d = $(`<div id="html_5fde36a60c456c735969a7930bf6f01d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> The Cistern<br><hr><b>Great Cormorant</b> (1) on 2025-02-27 14:47 [<a href='https://ebird.org/checklist/S215735158' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_04bdaabd32afeccac0e64a7cf0980caa.setContent(html_5fde36a60c456c735969a7930bf6f01d);
+            
+        
+
+        marker_e0417d4af0946eb56a075e4d2e6d2e9e.bindPopup(popup_04bdaabd32afeccac0e64a7cf0980caa)
+        ;
+
+        
+    
+    
+            marker_e0417d4af0946eb56a075e4d2e6d2e9e.bindTooltip(
+                `<div>
+                     <b>Great Cormorant</b> 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5568e66cb067bf41ec06ce12af0575e1 = L.marker(
+                [42.3715276, -71.2277167],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_89c80b1569c4f2d60c3cc66e6a3c2f59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a68065ac666b3d970e365ec629390788 = $(`<div id="html_a68065ac666b3d970e365ec629390788" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Charles River Bike Path--Waltham<br><hr><b>Lesser Scaup</b> (3) on 2025-02-27 08:02 [<a href='https://ebird.org/checklist/S215693864' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_89c80b1569c4f2d60c3cc66e6a3c2f59.setContent(html_a68065ac666b3d970e365ec629390788);
+            
+        
+
+        marker_5568e66cb067bf41ec06ce12af0575e1.bindPopup(popup_89c80b1569c4f2d60c3cc66e6a3c2f59)
+        ;
+
+        
+    
+    
+            marker_5568e66cb067bf41ec06ce12af0575e1.bindTooltip(
+                `<div>
+                     <b>Lesser Scaup</b> 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b4cad93fee9faca1c496a1b414291a2a = L.marker(
+                [42.4182609, -71.1173344],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_2eb383c90a8feed8566dd220362ce440 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77142b4ffc6b4b9182b89c5ebf8f9190 = $(`<div id="html_77142b4ffc6b4b9182b89c5ebf8f9190" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Mystic River Reservation--Condon Band Shell Park<br><hr><b>Red-throated Loon</b> (1) on 2025-02-26 17:18 [<a href='https://ebird.org/checklist/S215596439' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_2eb383c90a8feed8566dd220362ce440.setContent(html_77142b4ffc6b4b9182b89c5ebf8f9190);
+            
+        
+
+        marker_b4cad93fee9faca1c496a1b414291a2a.bindPopup(popup_2eb383c90a8feed8566dd220362ce440)
+        ;
+
+        
+    
+    
+            marker_b4cad93fee9faca1c496a1b414291a2a.bindTooltip(
+                `<div>
+                     <b>Red-throated Loon</b> 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_93d12476e5e749f4b471b6c677417cd2 = L.marker(
+                [42.3940459, -71.0766852],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_ab9033e08af9c0944fdd43e8dcac37fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0655440947427d86430de73e5e3d9ae0 = $(`<div id="html_0655440947427d86430de73e5e3d9ae0" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Draw Seven SP<br><hr><b>Red-throated Loon</b> (1) on 2025-02-26 16:22 [<a href='https://ebird.org/checklist/S215606448' target='_blank'>Checklist</a>]<br><hr><b>Surf Scoter</b> (4) on 2025-02-26 16:22 [<a href='https://ebird.org/checklist/S215606448' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_ab9033e08af9c0944fdd43e8dcac37fe.setContent(html_0655440947427d86430de73e5e3d9ae0);
+            
+        
+
+        marker_93d12476e5e749f4b471b6c677417cd2.bindPopup(popup_ab9033e08af9c0944fdd43e8dcac37fe)
+        ;
+
+        
+    
+    
+            marker_93d12476e5e749f4b471b6c677417cd2.bindTooltip(
+                `<div>
+                     Multiple sightings
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e5e2983bb18409caada17bd8f74d8cb2 = L.marker(
+                [42.3966819, -71.0810494],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_8940f046ea44b79b46e17961bd94d86b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72adcb1c4668bdd6dceea6f3f3f640df = $(`<div id="html_72adcb1c4668bdd6dceea6f3f3f640df" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Sylvester Baxter Riverfront Park<br><hr><b>Red-throated Loon</b> (1) on 2025-02-26 15:38 [<a href='https://ebird.org/checklist/S215605854' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_8940f046ea44b79b46e17961bd94d86b.setContent(html_72adcb1c4668bdd6dceea6f3f3f640df);
+            
+        
+
+        marker_e5e2983bb18409caada17bd8f74d8cb2.bindPopup(popup_8940f046ea44b79b46e17961bd94d86b)
+        ;
+
+        
+    
+    
+            marker_e5e2983bb18409caada17bd8f74d8cb2.bindTooltip(
+                `<div>
+                     <b>Red-throated Loon</b> 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_75a3030f891f6e0cde941c86ba9e4547 = L.marker(
+                [42.394091, -71.076513],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_660951600d4a945c35ec26693042ed6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44805c8869cc0492d10564af515500cc = $(`<div id="html_44805c8869cc0492d10564af515500cc" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Draw Seven State Park, Somerville US-MA 42.39409, -71.07651<br><hr><b>Surf Scoter</b> (4) on 2025-02-26 15:03 [<a href='https://ebird.org/checklist/S215613525' target='_blank'>Checklist</a>]<br><hr><b>Red-throated Loon</b> (1) on 2025-02-26 15:03 [<a href='https://ebird.org/checklist/S215613525' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_660951600d4a945c35ec26693042ed6b.setContent(html_44805c8869cc0492d10564af515500cc);
+            
+        
+
+        marker_75a3030f891f6e0cde941c86ba9e4547.bindPopup(popup_660951600d4a945c35ec26693042ed6b)
+        ;
+
+        
+    
+    
+            marker_75a3030f891f6e0cde941c86ba9e4547.bindTooltip(
+                `<div>
+                     Multiple sightings
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_484e7c44da9f5b4bdcc718c05700eb5d = L.marker(
+                [42.368167, -71.147667],
+                {
+}
+            ).addTo(map_08d7bf28fe71ca2ed8b092871d5ba685);
+        
+    
+        var popup_7b81c3232e7cbee90b8ba56ad25defc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d82d8b5a9fa333bd8806df6f0c23125 = $(`<div id="html_3d82d8b5a9fa333bd8806df6f0c23125" style="width: 100.0%; height: 100.0%;"><b>Location:</b> Mount Auburn Cemetery, Watertown US-MA 42.36817, -71.14767<br><hr><b>Orange-crowned Warbler</b> (1) on 2025-02-26 13:23 [<a href='https://ebird.org/checklist/S215569080' target='_blank'>Checklist</a>]<br><hr><b>Pine Warbler</b> (1) on 2025-02-26 13:23 [<a href='https://ebird.org/checklist/S215569080' target='_blank'>Checklist</a>]</div>`)[0];
+                popup_7b81c3232e7cbee90b8ba56ad25defc0.setContent(html_3d82d8b5a9fa333bd8806df6f0c23125);
+            
+        
+
+        marker_484e7c44da9f5b4bdcc718c05700eb5d.bindPopup(popup_7b81c3232e7cbee90b8ba56ad25defc0)
+        ;
+
+        
+    
+    
+            marker_484e7c44da9f5b4bdcc718c05700eb5d.bindTooltip(
+                `<div>
+                     Multiple sightings
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
